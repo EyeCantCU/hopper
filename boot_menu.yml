@@ -1,0 +1,11 @@
+ublue_variants:
+  - label: eyecantcu/hopper
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: hopper
+        info: Hopper
+  - label: eyecantcu/hopper-nvidia
+    ks: /kickstart/ublue-os-nvidia.ks
+    flavors:
+      - label: hopper-nvidia
+        info: Hopper (Nvidia)
