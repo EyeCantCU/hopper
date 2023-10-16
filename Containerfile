@@ -21,7 +21,8 @@ RUN wget -q https://download.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9 -P /et
         kernel-core \
         kernel-modules \
         kernel-modules-core \
-        kernel-modules-extra && \
+        kernel-modules-extra \
+        linux-firmware && \
     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/rocky.repo
 
 # Cleanup and finalize container
